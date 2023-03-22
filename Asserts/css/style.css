@@ -1,1 +1,131 @@
-/* Include css here */
+*{
+    margin: 0;
+}
+
+img{
+  width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    font-size: 30px;
+  }
+  
+  .grid1 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end:10;
+  }
+
+  li{
+    list-style-type: none;
+    padding-right: 20px;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid2 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.grid3 {
+  text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  background-color: antiquewhite !important; 
+}
+
+.grid3 p{
+  font-size: 20px;
+}
+
+.grid4 {
+  text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 10;
+  background-color: antiquewhite !important; 
+}
+
+.grid4 p{
+  font-size: 20px;
+}
+
+.grid5 {
+  grid-row-start: 4;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: black;
+  background-color: antiquewhite !important; 
+}
+
+
+    
+.grid6 {
+  grid-row-start: 6;
+  grid-row-end: 9;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color: antiquewhite !important; 
+}
+
+.grid7 {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 10;
+    background-color: antiquewhite !important; 
+  }
+  
+  .grid8 {
+    grid-row-start: 10;
+    grid-row-end:8 ;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-color: antiquewhite !important; 
+  }
+  .grid9 {
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 6;
+    grid-column-end: 10;
+    background-color: antiquewhite !important; 
+  }
+
+  .grid10{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: antiquewhite !important; 
+  }
+
+  .grid11{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 10;
+    background-color: antiquewhite !important; 
+  }
+
